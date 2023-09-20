@@ -1,0 +1,15 @@
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.csproj.AssemblyReference.cache
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.AssemblyInfoInputs.cache
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.AssemblyInfo.cs
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.csproj.CoreCompileInputs.cache
+C:\Dev\baltaio\POO_CSharp\Payments\bin\Debug\net7.0\Payments.exe
+C:\Dev\baltaio\POO_CSharp\Payments\bin\Debug\net7.0\Payments.deps.json
+C:\Dev\baltaio\POO_CSharp\Payments\bin\Debug\net7.0\Payments.runtimeconfig.json
+C:\Dev\baltaio\POO_CSharp\Payments\bin\Debug\net7.0\Payments.dll
+C:\Dev\baltaio\POO_CSharp\Payments\bin\Debug\net7.0\Payments.pdb
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.dll
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\refint\Payments.dll
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.pdb
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\Payments.genruntimeconfig.cache
+C:\Dev\baltaio\POO_CSharp\Payments\obj\Debug\net7.0\ref\Payments.dll
