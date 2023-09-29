@@ -4,10 +4,11 @@ namespace Balta.ContentContext;
 
 public class Course : Content
 {
-    public Course(string title, string url)
+    public Course(string title, string url, EContentLevel level)
         : base(title, url)
     {
         Modules = new List<Module>();
+        Level = level;
     }
     public string? Tag { get; set; }
     public IList<Module> Modules { get; set; }
