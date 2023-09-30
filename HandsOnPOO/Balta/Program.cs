@@ -3,6 +3,8 @@ using System.Diagnostics;
 using System.Runtime.CompilerServices;
 using Balta.ContentContext;
 using Balta.ContentContext.Enums;
+using Balta.NotificationContext;
+using Balta.SubscriptionContext;
 
 namespace Balta;
 
@@ -39,7 +41,8 @@ public class Program
         Console.WriteLine();
         var careers = new List<Career>();
         var careerDotnet = new Career("Especialista .NET", "especialista-dotnet");
-        var careerItem2 = new CareerItem(2, "Aprenda OOP", "", courseOOP);
+
+        var careerItem2 = new CareerItem(2, "Aprenda OOP", "", null);
         var careerItem = new CareerItem(1, "Comece por arqui", "", courseCSharp);
         var careerItem3 = new CareerItem(3, "Aprenda .NET", "", courseAspnet);
 
@@ -56,7 +59,16 @@ public class Program
             {
                 Console.WriteLine($"{item.Order} - {item.Title}");
                 Console.WriteLine($"Curso: {item.Course?.Title} - Level: {item.Course?.Level.ToString()}");
+
+                foreach (var notification in item.Notifications)
+                {
+                    Console.WriteLine($"{notification.Property} - {notification.Message}");
+                }
             }
+
+            var payPalSubscription = new PayPalSubscription();
+            var student = new Student();
+            student.CreateSubscription(payPalSubscription);
         }
 
     }

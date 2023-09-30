@@ -1,11 +1,14 @@
+using Balta.NotificationContext;
+using Balta.SharedContext;
+
 namespace Balta.ContentContext;
 
-public class CareerItem
+public class CareerItem : Base
 {
     public CareerItem(int order, string? title, string? description, Course? course)
     {
         if (course == null)
-            throw new System.Exception("O curso nao pode ser nulo");
+            AddNotification(new Notification("Couse", "Curso invalido."));
         Order = order;
         Title = title;
         Description = description;
